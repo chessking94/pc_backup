@@ -7,11 +7,9 @@ robocopy "C:\Users\eehunt\Repository" "S:\eehunt\Repository" /mir /r:0 /w:0
 robocopy "C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup" "S:\System\MSSQLSERVER\DATA" /mir /r:0 /w:0
 robocopy "C:\Users\eehunt\Desktop\scheduled scripts" "S:\System\Scripts" /mir /r:0 /w:0
 :: Google Drive
-copy /b "C:\Users\eehunt\Documents\Domain\Local Domain.kdbx" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Misc"
 copy /b "C:\Users\eehunt\Documents\Chess\Chess Game Statistics v4.xlsx" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess"
 copy /b "C:\Users\eehunt\Documents\Chess\Online Chess Game Statistics v2.xlsx" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess"
 copy /b "C:\Users\eehunt\Documents\Chess\UsernameDownloadSelections.xlsm" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess"
-copy /b "C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup\ChessWarehouse.bak" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess"
 robocopy "C:\Users\eehunt\Documents\ChessBase\Bases" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess\BACKUP" "LiveOnline.*"
 robocopy "C:\Users\eehunt\Documents\ChessBase\Bases" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess\BACKUP" "CCGamesOnline.*"
 robocopy "C:\Users\eehunt\Documents\ChessBase\Bases" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess\BACKUP" "ChessCastle.*"
