@@ -4,7 +4,7 @@ robocopy "C:\Users\eehunt\Music" "S:\eehunt\Music" /e /xo /r:0 /w:0
 robocopy "C:\Users\eehunt\Pictures" "S:\eehunt\Pictures" /e /xo /r:0 /w:0
 robocopy "C:\FileProcessing" "S:\System\FileProcessing" /e /mov /r:0 /w:0
 robocopy "C:\Users\eehunt\Repository" "S:\eehunt\Repository" /mir /r:0 /w:0
-robocopy "C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup" "S:\System\MSSQLSERVER\DATA" /mir /r:0 /w:0
+robocopy "C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\Backup" "S:\System\MSSQLSERVER\DATA" /mir /r:0 /w:0
 robocopy "C:\Users\eehunt\Desktop\scheduled scripts" "S:\System\Scripts" /mir /r:0 /w:0
 :: Google Drive
 copy /b "C:\Users\eehunt\Documents\Chess\Chess Game Statistics v5.xlsm" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess"
