@@ -18,3 +18,5 @@ robocopy "C:\Users\eehunt\Documents\ChessBase\Bases" "C:\Users\eehunt\GOOGLE_DRI
 robocopy "C:\Users\eehunt\Documents\ChessBase\Bases\Preparation" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess\BACKUP" "PlayerPrep*"
 robocopy "C:\Users\eehunt\Documents\ChessBase\Books" "C:\Users\eehunt\GOOGLE_DRIVE_BACKUP\Chess\BACKUP" "Ethan*"
 :: Onedrive
+
+exit /b 0
